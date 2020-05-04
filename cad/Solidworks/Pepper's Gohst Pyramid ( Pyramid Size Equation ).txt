@@ -1,0 +1,19 @@
+﻿"screen width"= 45.00mm
+"screen height"= 85.00mm
+"top cutoff" = 2.00mm
+
+"A" = "screen width" / 2
+"B" = "screen width" / 2
+"screen hypotenuse" = sqr ( ( "A" * "A" ) + ( "B" * "B" ) )
+
+"a2" = "top cutoff" 
+"b2" = "top cutoff"
+"top cutoff hypotenuse" = sqr ( ( "a2" * "a2" ) + ( "b2" * "b2" ) )
+"total hypotenuse" = "screen hypotenuse" - "top cutoff hypotenuse"
+
+"image display width" = ( "A" / 3 ) * 2
+"image display height" = ( "B" / 3 ) * 2
+"support pole dia" = 7.00mm
+"support pole loose fit hole dia" = "support pole dia"+0.5
+"support pole tight fit hole dia" = "support pole dia"+0.25
+

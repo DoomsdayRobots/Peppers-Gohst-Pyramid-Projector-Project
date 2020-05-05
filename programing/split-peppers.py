@@ -8,11 +8,11 @@ import cv2
     
 video1 = 'Earth.mov'
 video2 = 'chaplin.mp4'
-video3 = 'hi.wow'
+video3 = 'Your_videos_name_here.avi'
 
 # put the name of your video in where it says 'Earth.mov' make sure to put single quotes around the file name.
 # the video file you want to use should be in the same directory as this python program. 
-videoToLoad = cv2.VideoCapture(video1)
+videoToLoad = cv2.VideoCapture(video2)
 
 # please enter in the screen size you will be using measured in mm
 # for ease of use, please enter in the dimentions in as a landscape view as aposed to a portrate view
